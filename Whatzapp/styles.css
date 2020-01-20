@@ -1,0 +1,141 @@
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 888px;
+    height: 406px;
+
+}
+
+.seccion1-principal {
+
+    display: inline-block;
+    width: 290px;
+    height: 415px;
+    float: left;
+
+}
+
+.encabezado-seccion1 {
+
+    text-align: center;
+    width: 295px;
+    height: 70px;
+    background-color: gainsboro;
+
+}
+
+.encabezado-seccion1 h1 {
+    position: relative;
+    top: 15px;
+}
+
+.encabezado-seccion2 h1 {
+    position: relative;
+    top: 15px;
+}
+
+.seccion1 {
+
+    text-align: justify;
+    width: 293px;
+    height: 64px;
+    display: inline-block;
+    position: relative;
+    left: 00px;
+    cursor: pointer;
+
+}
+
+.seccion1 {
+
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: aliceblue;
+
+
+}
+
+.seccion2-principal {
+
+    display: inline-block;
+    width: 592px;
+    height: 400px;
+    float: right;
+    
+}
+
+.encabezado-seccion2 {
+
+    text-align: center;
+    width: 583px;
+    height: 70px;
+    background-color: gainsboro;
+
+}
+
+.seccion2 {
+
+    text-align: center;
+    width: 580px;
+    height: 260px;
+    color: gray;
+
+}
+
+
+.Seccion-texto {
+
+    font-size: large;
+    border: 0px;
+    border-style: solid;
+    border-color: gray;
+    text-align: justify;
+    width: 530px;
+    height: 50px;
+    color: black;
+    font-style: italic;
+    font-size: 1em;
+    background-color: gainsboro;
+    border-radius: 30px;
+    position: relative;
+    left: 40px;
+
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    right: -5px;
+}
+
+img {
+    cursor: pointer;
+
+}
+
+.seccion1:hover {
+    color: blue;
+}
+
+#contenido-dinamico-menu {
+    position: relative;
+    top: 80px;
+
+}
+
+#texto-dinamico {
+    position: relative;
+    top: 15px;
+
+}
